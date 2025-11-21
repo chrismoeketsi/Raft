@@ -17,10 +17,7 @@ const HeroSection = () => {
   return (
     <Wrapper>
       <Inner>
-        <Pill>
-          
-          <Image src={ic_chevron_right} alt="chevron-right" />
-        </Pill>
+
         <HeroTextContainer>
           {isMobile ? (
             <>
